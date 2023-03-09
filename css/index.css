@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    margin-bottom: -12px;
+}
+
+body {
+    background-image: url(../img/background_g.png);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #5B8168;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+.p12 {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    justify-content: center;
+    display: flex;
+    height: 166px;
+    background-image: url(../img/0.png);
+    border-radius: 0 0 0 60px;
+    background-size: 100% 100%;
+    position: absolute;
+    position: fixed;
+}
+
+.img0-0 {
+    position: absolute;
+    right: 0;
+    width: 212px;
+    top: 0;
+    z-index: -1;
+}
+
+.weather {
+    display: flex;
+    padding-left: 16px;
+    width: 78px;
+    height: 56px;
+    line-height: 3px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 16px;
+}
+
+.weathertext {
+    margin-left: 4px;
+    font-size: 18px;
+    line-height: 50px;
+    margin-top: 0;
+}
+
+.weatherC {
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+#menu-switcher {
+    display: none;
+}
+
+.burger {
+    position: absolute;
+    display: block;
+    right: 16px;
+}
+
+.name {
+    position: absolute;
+    right: 30px;
+    left: 30px;
+    top: 56px;
+}
+
+.menu {
+    background-image: url(../img/burger.png);
+    height: 900px;
+    position: absolute;
+    right: 0;
+    margin-top: 0;
+    z-index: 100;
+    transform: translateX(1000%);
+    transition: 0.6s;
+    list-style-type: none;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.burgericon {
+    margin-bottom: 20px;
+}
+
+li {
+    padding-bottom: 39px;
+}
+
+#menu-switcher:checked~.menu {
+    transform: translateX(0%);
+}
+
+.icon {
+    margin-bottom: 3px;
+}
+
+.box1 {
+    background-image: url(../img/1.png);
+    background-size: 100%;
+    height: 513px;
+    margin-top: -207px;
+
+    padding-top: 305px;
+    padding-left: 30px;
+    color: #ffffff;
+}
+
+.box2 {
+    background-image: url(../img/2.png);
+    background-size: 100%;
+    height: 388px;
+
+    text-align: center;
+    padding-top: 144px;
+}
+
+.flex {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.box3 {
+    background-image: url(../img/3.png);
+    background-size: 100%;
+    height: 388px;
+    width: 100%;
+    padding-top: 225px;
+    padding-left: 30px;
+    color: #ffffff;
+}
+
+.box4 {
+    background-image: url(../img/4.png);
+    background-size: cover;
+    height: 448px;
+    width: 100%;
+    margin-bottom: -448px;
+    text-align: center;
+    padding-top: 154px;
+}
+.img{
+    
+}
+.box5 {
+    background-image: url(../img/5.png);
+    background-size: 100% 100%;
+    height: 60px;
+
+    text-align: end;
+    padding-top: 356px;
+    padding-right: 16px;
+}
+
+.box5-2 {
+    background-image: url(../img/5-2.png);
+    background-size: 100% 100%;
+    height: 448px;
+
+    text-align: end;
+    padding-top: 356px;
+    padding-right: 16px;
+}
+
+.box5-3 {
+    background-image: url(../img/5-3.png);
+    background-size: 100% 100%;
+    height: 448px;
+
+    text-align: end;
+    padding-top: 356px;
+    padding-right: 16px;
+}
+
+.box5-4 {
+    background-image: url(../img/5-4.png);
+    background-size: 100% 100%;
+    height: 448px;
+
+    text-align: end;
+    padding-top: 356px;
+    padding-right: 16px;
+}
+
+.box5-5 {
+    background-image: url(../img/5-5.png);
+    background-size: 100% 100%;
+    height: 448px;
+    text-align: end;
+    padding-top: 415px;
+    padding-right: 16px;
+}
