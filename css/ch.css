@@ -4,7 +4,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    width: 390px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #000;
     background-color: #000;
@@ -62,9 +61,9 @@ a {
 
 .menu {
     background-image: url(../img/burger_ch.png);
-    background-size: 100% ;
+    background-size: 100%;
     width: 44px;
-    height:2800px;
+    height: 2800px;
     position: absolute;
     right: 0;
     margin-top: 0;
@@ -75,9 +74,11 @@ a {
     padding-left: 41px;
     padding-right: 16px;
 }
-.burgericon{
+
+.burgericon {
     margin-bottom: 36px;
 }
+
 .li {
     padding-bottom: 16px;
 }
@@ -90,7 +91,7 @@ nav {
     position: absolute;
     z-index: 10000;
     position: fixed;
-    width: 390px;
+    width: 100%;
     display: flex;
     background: linear-gradient(to bottom, #000, rgba(0, 0, 0, 0));
     height: 56px;
@@ -101,6 +102,7 @@ nav {
 .back {
     padding-left: 16px;
 }
+
 /*nav*/
 .flex {
     margin-top: -30px;
@@ -111,56 +113,57 @@ nav {
     justify-content: center;
     gap: 10px;
     color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .box1 {
     background-image: url(../img/2-1.png);
-    background-size: 100% 100%;
+    background-size: cover;
     height: 228px;
-    width: 390px;
-    margin-bottom: -125px;
+    width: 100%;
+
     text-align: center;
     padding-top: 100px;
 }
 
 .box2 {
     background-image: url(../img/2-2.png);
-    background-size: 100% 100%;
+    background-size: cover;
     height: 248px;
-    width: 390px;
-    margin-bottom: -125px;
+    width: 100%;
+
     text-align: center;
     padding-top: 140px;
 }
 
 .box3 {
     background-image: url(../img/2-4.png);
-    background-size: 100% 100%;
+    background-size: cover;
     height: 248px;
-    width: 390px;
-    margin-bottom: -125px;
+    width: 100%;
+
     text-align: center;
     padding-top: 140px;
 }
 
 .box4 {
     background-image: url(../img/2-5.png);
-    background-size: 100% 100%;
+    background-size: cover;
     height: 248px;
-    width: 390px;
-    margin-bottom: -125px;
+    width: 100%;
+
     text-align: center;
     padding-top: 140px;
 }
 
 .question-btn {
     background-image: url(../img/2-3.png);
-    background-size: 100% 100%;
+    background-size: cover;
     background-color: transparent;
     border: none;
-    width: 390px;
+    width: 100%;
     height: 388px;
-    margin-bottom: -125px;
     padding-bottom: 26px;
     -webkit-tap-highlight-color: transparent;
     outline: none;
@@ -175,8 +178,9 @@ nav {
 }
 
 .text {
-    width: 354px;
+    width: 99%;
     line-height: 34px;
+    padding-right: 16px;
 }
 
 .trailimg {
@@ -199,7 +203,7 @@ nav {
 
 .question-text {
     display: none;
-    width: 390px;
+    width: 100%;
     padding-top: 75px;
     padding-bottom: 120px;
     margin-bottom: -125px;
@@ -217,7 +221,7 @@ nav {
 
 .flex2 {
     display: flex;
-    width: 390px;
+    width: 100%;
     gap: 10px;
 }
 
@@ -240,7 +244,7 @@ nav {
     background-color: #548B6C;
     border: none;
     color: rgb(255, 255, 255);
-    width: 358px;
+    width: 90%;
     height: 48px;
     border-radius: 30px;
     font-size: 20px;
@@ -252,39 +256,39 @@ nav {
 
 .box6 {
     background-image: url(../img/2-6.png);
-    background-size: 100% 100%;
+    background-size: cover;
     height: 248px;
-    width: 390px;
-    margin-bottom: -125px;
+    width: 100%;
+
     text-align: center;
     padding-top: 140px;
 }
 
 .box7 {
     background-image: url(../img/2-7.png);
-    background-size: 100% 100%;
+    background-size: cover;
     height: 248px;
-    width: 390px;
-    margin-bottom: -125px;
+    width: 100%;
+
     text-align: center;
     padding-top: 140px;
 }
 
 .box8 {
     background-image: url(../img/2-8.png);
-    background-size: 100% 100%;
+    background-size: cover;
     height: 248px;
-    width: 390px;
-    margin-bottom: -125px;
+    width: 100%;
+
     text-align: center;
     padding-top: 140px;
 }
 
 .box9 {
     background-image: url(../img/2-9.png);
-    background-size: 100% 100%;
+    background-size: cover;
     height: 180px;
-    width: 390px;
+    width: 100%;
     margin-bottom: 0;
     text-align: center;
     padding-top: 140px;
