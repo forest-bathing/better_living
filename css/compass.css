@@ -58,7 +58,7 @@ a {
     background-image: url(../img/burger_compass.png);
     background-size: 100% 100%;
     width: 44px;
-    height:800px;
+    height:2800px;
     position: absolute;
     right: 0;
     margin-top: 0;
@@ -70,10 +70,10 @@ a {
     padding-right: 16px;
 }
 .burgericon{
-    margin-bottom: 36px;
+    margin-bottom: 20px;
 }
 .li {
-    padding-bottom: 16px;
+    padding-bottom: 19px;
 }
 
 #menu-switcher:checked~.menu {
