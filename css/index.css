@@ -28,23 +28,26 @@ h1 {
 
 h2 {
     color: #ffffff;
-    font-size: 60px;
+    font-size: 68px;
     font-weight: bold;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 44px;
 }
 
 p {
-    font-size: 16px;
+    font-size: 42px;
     font-weight: normal;
     color: rgb(255, 255, 255);
 }
+span{
+    font-size: 30px;
+}
 
 .p12 {
-    font-size: 12px;
-    color: rgb(255, 255, 255);
+    font-size: 30px;
+    color: #CCCDD2;
 }
 
 nav {
@@ -53,9 +56,11 @@ nav {
     background-image: url(../img/0.png);
     background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 661px;
     position: absolute;
     position: fixed;
+    padding-top: 76px;
+    z-index: 100;
 }
 
 .img0-0 {
@@ -68,28 +73,27 @@ nav {
 
 .weather {
     display: flex;
-    padding-left: 16px;
     width: 78px;
     height: 56px;
     line-height: 3px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     position: absolute;
-    left: 16px;
+   left: 70px; 
 }
 
 .weathertext {
     margin-left: 4px;
-    font-size: 18px;
-    line-height: 50px;
+    font-size: 50px;
+    line-height: 70px;
     margin-top: 0;
 }
 
 .weatherC {
     margin-left: 0;
     margin-top: 0;
-    font-size: 15px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 70px;
 }
 
 #menu-switcher {
@@ -99,14 +103,14 @@ nav {
 .burger {
     position: absolute;
     display: block;
-    right: 16px;
+    right: 70px;
 }
 
 .name {
     position: absolute;
     right: 30px;
-    left: 30px;
-    top: 56px;
+    left: 70px;
+    top: 235px;
 }
 
 .menu {
@@ -142,20 +146,22 @@ li {
 .box1 {
     background-image: url(../img/1.png);
     background-size: cover;
-    height: 1203px;
-    margin-top: -px;
-    padding-top: 305px;
-    padding-left: 30px;
+    height: 1260px;
+    padding-left: 70px;
     color: #ffffff;
+    padding-top: 822px;
+    margin-top: -661px;
+    margin-bottom: -320px;
 }
 
 .box2 {
     background-image: url(../img/2.png);
     background-size: cover;
     width: 100%;
-    height: 900px;
+    height: 920px;
     text-align: center;
-    padding-top: 144px;
+    padding-top: 460px;
+    margin-bottom: -320px;
 }
 
 .flex {
@@ -172,11 +178,11 @@ li {
 .box3 {
     background-image: url(../img/3.png);
     background-size: 100%;
-    height: 900px;
-
+    height: 920px;
+    margin-bottom: -320px;
     width: 100%;
-    padding-top: 225px;
-    padding-left: 30px;
+    padding-top: 526px;
+    padding-left: 70px;
     color: #ffffff;
 }
 
@@ -184,20 +190,21 @@ li {
     background-image: url(../img/4.png);
     background-size: cover;
     height: 1057px;
-    width: 1024px;
+    width: 1080px;
     width: 100%;
     text-align: center;
-    padding-top: 154px;
+    padding-top: 389px;
 }
 
 .box5 {
     background-image: url(../img/5.png);
     background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 608px;
     text-align: end;
-    padding-top: 20px;
-    padding-right: 16px;
+    padding-top: 319px;
+    padding-right: 70px;
+    margin-top: -608px;
 }
 
 /* 
