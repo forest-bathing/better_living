@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    margin-bottom: -12px;
+
 }
 
 body {
@@ -192,19 +192,21 @@ li {
     text-align: center;
     padding-top: 154px;
 }
-.img{
+
+.img {
     position: absolute;
-    bottom: -22px;
+    top: -52px;
+    bottom: -12px;
     left: 0;
-    height: 222px;
+    height: 200px;
 }
+
 .box5 {
     background-image: url(../img/5.png);
     background-size: cover;
     height: 124px;
-
     text-align: end;
-
+    padding-top: 20px;
     padding-right: 16px;
 }
 
@@ -212,9 +214,8 @@ li {
     background-image: url(../img/5-2.png);
     background-size: cover;
     height: 124px;
-
     text-align: end;
-
+    padding-top: 20px;
     padding-right: 16px;
 }
 
@@ -222,8 +223,8 @@ li {
     background-image: url(../img/5-3.png);
     background-size: cover;
     height: 124px;
-
     text-align: end;
+    padding-top: 20px;
     padding-right: 16px;
 }
 
@@ -231,9 +232,8 @@ li {
     background-image: url(../img/5-4.png);
     background-size: cover;
     height: 124px;
-
     text-align: end;
-
+    padding-top: 20px;
     padding-right: 16px;
 }
 
@@ -242,6 +242,5 @@ li {
     background-size: cover;
     height: 124px;
     text-align: end;
-
     padding-right: 16px;
 }
