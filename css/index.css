@@ -51,10 +51,10 @@ p {
 nav {
     justify-content: center;
     display: flex;
-    height: 200px;
     background-image: url(../img/0.png);
-    border-radius: 0 0 0 60px;
-    background-size: 100% 100%;
+    background-size: cover;
+    width: 2048px;
+    height: 1200px;
     position: absolute;
     position: fixed;
 }
