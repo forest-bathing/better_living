@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
 }
 
 body {
@@ -12,7 +11,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     background-color: #5B8168;
-
 }
 
 body::-webkit-scrollbar {
@@ -53,7 +51,7 @@ p {
 nav {
     justify-content: center;
     display: flex;
-    height: 164px;
+    height: 200px;
     background-image: url(../img/0.png);
     border-radius: 0 0 0 60px;
     background-size: 100% 100%;
