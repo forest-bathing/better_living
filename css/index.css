@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    margin-bottom: -12px;
+    margin-bottom: -16px;
 }
 
 body {
@@ -126,7 +126,7 @@ nav {
 
 .menu {
     background-image: url(../img/burger.png);
-    height: 9000px;
+    height: 1366px;
     position: absolute;
     right: 0;
     margin-top: 0;
@@ -213,9 +213,10 @@ li {
     width: 100%;
     height: 608px;
     text-align: end;
-    padding-top: 319px;
+    padding-top: 350px;
     padding-right: 70px;
     z-index: 1000;
+    margin-bottom: 0;
 }
 
 .box5-2 {
@@ -224,8 +225,9 @@ li {
     width: 100%;
     height: 608px;
     text-align: end;
-    padding-top: 319px;
+    padding-top: 350px;
     padding-right: 70px;
+    margin-bottom: 0;
 }
 
 .box5-3 {
@@ -234,8 +236,9 @@ li {
     width: 100%;
     height: 608px;
     text-align: end;
-    padding-top: 319px;
+    padding-top: 350px;
     padding-right: 70px;
+    margin-bottom: 0;
 }
 
 .box5-4 {
@@ -244,8 +247,9 @@ li {
     width: 100%;
     height: 608px;
     text-align: end;
-    padding-top: 319px;
+    padding-top: 350px;
     padding-right: 70px;
+    margin-bottom: 0;
 }
 
 .box5-5 {
@@ -256,4 +260,5 @@ li {
     text-align: end;
     padding-top: 500px;
     padding-right: 70px;
+    margin-bottom: 0;
 }
