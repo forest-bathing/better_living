@@ -5,11 +5,10 @@
 }
 
 body {
-    /* background-image: url(../img/background_g.png); */
     margin-left: auto;
     margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
-    color: #5B8168;
+    background-color: #5B8268;
 }
 
 body::-webkit-scrollbar {
@@ -102,7 +101,9 @@ li {
 
 .all {
     position: absolute;
+
     right: 0;
+    top: 0;
 }
 
 .box1 {
@@ -148,7 +149,7 @@ li {
     height: 490px;
     text-align: center;
     padding-top: 200px;
-    margin-bottom: -325.34px;
+    margin-bottom: -372px;
 }
 
 .box5 {
@@ -163,45 +164,41 @@ li {
 }
 
 .box5-2 {
-    background-image: url(../img/5-3.png);
-    background-size: cover;
-    width: 100%;
-    height: 608px;
+    background-image: url(../img/ipad_box5-3.png);
+    width: 723px;
+    height: 325.34px;
     text-align: end;
-    padding-top: 350px;
-    padding-right: 70px;
+    padding-top: 187px;
+    padding-right: 50px;
     margin-bottom: 0;
 }
 
 .box5-3 {
-    background-image: url(../img/5-2.png);
-    background-size: cover;
-    width: 100%;
-    height: 608px;
+    background-image: url(../img/ipad_box5-2.png);
+    width: 723px;
+    height: 325.34px;
     text-align: end;
-    padding-top: 350px;
-    padding-right: 70px;
+    padding-top: 187px;
+    padding-right: 50px;
     margin-bottom: 0;
 }
 
 .box5-4 {
-    background-image: url(../img/5-4.png);
-    background-size: cover;
-    width: 100%;
-    height: 608px;
+    background-image: url(../img/ipad_box5-4.png);
+    width: 723px;
+    height: 325.34px;
     text-align: end;
-    padding-top: 350px;
-    padding-right: 70px;
+    padding-top: 187px;
+    padding-right: 50px;
     margin-bottom: 0;
 }
 
 .box5-5 {
-    background-image: url(../img/5-5.png);
-    background-size: cover;
-    width: 100%;
-    height: 608px;
+    background-image: url(../img/ipad_box5-5.png);
+    width: 723px;
+    height: 325.34px;
     text-align: end;
-    padding-top: 500px;
-    padding-right: 70px;
+    padding-top: 280px;
+    padding-right: 50px;
     margin-bottom: 0;
 }
