@@ -101,7 +101,6 @@ li {
 
 .all {
     position: absolute;
-
     right: 0;
     top: 0;
 }
@@ -201,4 +200,10 @@ li {
     padding-top: 280px;
     padding-right: 50px;
     margin-bottom: 0;
+}
+
+.allseason {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
 }
