@@ -43,13 +43,13 @@ h3 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 26px;
     font-weight: normal;
     color: #ffffff;
 }
 
 span {
-    font-size: 12px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
 }
 
@@ -91,7 +91,7 @@ nav {
 }
 
 .burger{
-    font-size: 16px;
+    font-size: 25px;
     margin-left: 10px;
 }
 
@@ -102,7 +102,6 @@ li {
 .icon {
     margin-bottom: 3px;
 }
-
 
 .all {
     position: absolute;
@@ -143,7 +142,7 @@ li {
     width: 723px;
     height: 464px;
     padding-left: 50px;
-    padding-top: 300px;
+    padding-top: 250px;
     margin-bottom: -160px;
 }
 
@@ -152,7 +151,7 @@ li {
     width: 723px;
     height: 490px;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 150px;
     margin-bottom: -372px;
 }
 
