@@ -90,6 +90,11 @@ nav {
     top: 250px;
 }
 
+.burger{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
 li {
     margin-bottom: 40px;
 }
