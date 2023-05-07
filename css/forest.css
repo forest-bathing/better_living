@@ -11,6 +11,8 @@ a{
 body {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/body.png);
+    background-size: 100%;
 }
 
 h1{
